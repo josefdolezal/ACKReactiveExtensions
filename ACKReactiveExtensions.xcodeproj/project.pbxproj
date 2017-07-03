@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D25EEA881F0A7D6500A45C98 /* ArgoDeprecations.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25EEA761F0A7D6500A45C98 /* ArgoDeprecations.swift */; };
+		D25EEA891F0A7D6500A45C98 /* ArgoMapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25EEA771F0A7D6500A45C98 /* ArgoMapping.swift */; };
+		D25EEA8A1F0A7D6500A45C98 /* ACKReactiveExtensionsConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25EEA791F0A7D6500A45C98 /* ACKReactiveExtensionsConfiguration.swift */; };
+		D25EEA8B1F0A7D6500A45C98 /* Core.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25EEA7A1F0A7D6500A45C98 /* Core.swift */; };
+		D25EEA8C1F0A7D6500A45C98 /* MarshalMapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25EEA7C1F0A7D6500A45C98 /* MarshalMapping.swift */; };
+		D25EEA8D1F0A7D6500A45C98 /* RACReachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25EEA7E1F0A7D6500A45C98 /* RACReachability.swift */; };
+		D25EEA8E1F0A7D6500A45C98 /* RealmExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25EEA801F0A7D6500A45C98 /* RealmExtensions.swift */; };
+		D25EEA8F1F0A7D6500A45C98 /* SDWebImage+RAC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25EEA821F0A7D6500A45C98 /* SDWebImage+RAC.swift */; };
+		D25EEA901F0A7D6500A45C98 /* Deprecations.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25EEA841F0A7D6500A45C98 /* Deprecations.swift */; };
+		D25EEA911F0A7D6500A45C98 /* UIKitExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25EEA851F0A7D6500A45C98 /* UIKitExtensions.swift */; };
+		D25EEA921F0A7D6500A45C98 /* WebKitExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25EEA871F0A7D6500A45C98 /* WebKitExtensions.swift */; };
+		D25EEA9C1F0A814C00A45C98 /* Argo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D25EEA941F0A814C00A45C98 /* Argo.framework */; };
+		D25EEA9D1F0A814C00A45C98 /* Marshal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D25EEA951F0A814C00A45C98 /* Marshal.framework */; };
+		D25EEA9E1F0A814C00A45C98 /* ReactiveSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D25EEA961F0A814C00A45C98 /* ReactiveSwift.framework */; };
+		D25EEA9F1F0A814C00A45C98 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D25EEA971F0A814C00A45C98 /* Realm.framework */; };
+		D25EEAA01F0A814C00A45C98 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D25EEA981F0A814C00A45C98 /* RealmSwift.framework */; };
+		D25EEAA11F0A814C00A45C98 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D25EEA991F0A814C00A45C98 /* Result.framework */; };
+		D25EEAA21F0A814C00A45C98 /* Runes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D25EEA9A1F0A814C00A45C98 /* Runes.framework */; };
+		D25EEAA31F0A814C00A45C98 /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D25EEA9B1F0A814C00A45C98 /* SDWebImage.framework */; };
+		D25EEAA61F0A85CF00A45C98 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D25EEAA51F0A85CF00A45C98 /* ReactiveCocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D25EEA761F0A7D6500A45C98 /* ArgoDeprecations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArgoDeprecations.swift; sourceTree = "<group>"; };
+		D25EEA771F0A7D6500A45C98 /* ArgoMapping.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArgoMapping.swift; sourceTree = "<group>"; };
+		D25EEA791F0A7D6500A45C98 /* ACKReactiveExtensionsConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACKReactiveExtensionsConfiguration.swift; sourceTree = "<group>"; };
+		D25EEA7A1F0A7D6500A45C98 /* Core.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Core.swift; sourceTree = "<group>"; };
+		D25EEA7C1F0A7D6500A45C98 /* MarshalMapping.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarshalMapping.swift; sourceTree = "<group>"; };
+		D25EEA7E1F0A7D6500A45C98 /* RACReachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RACReachability.swift; sourceTree = "<group>"; };
+		D25EEA801F0A7D6500A45C98 /* RealmExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmExtensions.swift; sourceTree = "<group>"; };
+		D25EEA821F0A7D6500A45C98 /* SDWebImage+RAC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SDWebImage+RAC.swift"; sourceTree = "<group>"; };
+		D25EEA841F0A7D6500A45C98 /* Deprecations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Deprecations.swift; sourceTree = "<group>"; };
+		D25EEA851F0A7D6500A45C98 /* UIKitExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKitExtensions.swift; sourceTree = "<group>"; };
+		D25EEA871F0A7D6500A45C98 /* WebKitExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebKitExtensions.swift; sourceTree = "<group>"; };
+		D25EEA941F0A814C00A45C98 /* Argo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Argo.framework; path = Carthage/Build/iOS/Argo.framework; sourceTree = "<group>"; };
+		D25EEA951F0A814C00A45C98 /* Marshal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Marshal.framework; path = Carthage/Build/iOS/Marshal.framework; sourceTree = "<group>"; };
+		D25EEA961F0A814C00A45C98 /* ReactiveSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveSwift.framework; path = Carthage/Build/iOS/ReactiveSwift.framework; sourceTree = "<group>"; };
+		D25EEA971F0A814C00A45C98 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = Carthage/Build/iOS/Realm.framework; sourceTree = "<group>"; };
+		D25EEA981F0A814C00A45C98 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = Carthage/Build/iOS/RealmSwift.framework; sourceTree = "<group>"; };
+		D25EEA991F0A814C00A45C98 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
+		D25EEA9A1F0A814C00A45C98 /* Runes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Runes.framework; path = Carthage/Build/iOS/Runes.framework; sourceTree = "<group>"; };
+		D25EEA9B1F0A814C00A45C98 /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDWebImage.framework; path = Carthage/Build/iOS/SDWebImage.framework; sourceTree = "<group>"; };
+		D25EEAA51F0A85CF00A45C98 /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveCocoa.framework; path = Carthage/Build/iOS/ReactiveCocoa.framework; sourceTree = "<group>"; };
+		D296CE551F0A7D18006EEEE3 /* ACKReactiveExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ACKReactiveExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D296CE591F0A7D18006EEEE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D296CE511F0A7D18006EEEE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D25EEAA61F0A85CF00A45C98 /* ReactiveCocoa.framework in Frameworks */,
+				D25EEA9C1F0A814C00A45C98 /* Argo.framework in Frameworks */,
+				D25EEA9D1F0A814C00A45C98 /* Marshal.framework in Frameworks */,
+				D25EEA9E1F0A814C00A45C98 /* ReactiveSwift.framework in Frameworks */,
+				D25EEA9F1F0A814C00A45C98 /* Realm.framework in Frameworks */,
+				D25EEAA11F0A814C00A45C98 /* Result.framework in Frameworks */,
+				D25EEAA01F0A814C00A45C98 /* RealmSwift.framework in Frameworks */,
+				D25EEAA21F0A814C00A45C98 /* Runes.framework in Frameworks */,
+				D25EEAA31F0A814C00A45C98 /* SDWebImage.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D25EEA751F0A7D6500A45C98 /* Argo */ = {
+			isa = PBXGroup;
+			children = (
+				D25EEA761F0A7D6500A45C98 /* ArgoDeprecations.swift */,
+				D25EEA771F0A7D6500A45C98 /* ArgoMapping.swift */,
+			);
+			path = Argo;
+			sourceTree = "<group>";
+		};
+		D25EEA781F0A7D6500A45C98 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				D25EEA791F0A7D6500A45C98 /* ACKReactiveExtensionsConfiguration.swift */,
+				D25EEA7A1F0A7D6500A45C98 /* Core.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		D25EEA7B1F0A7D6500A45C98 /* Marshal */ = {
+			isa = PBXGroup;
+			children = (
+				D25EEA7C1F0A7D6500A45C98 /* MarshalMapping.swift */,
+			);
+			path = Marshal;
+			sourceTree = "<group>";
+		};
+		D25EEA7D1F0A7D6500A45C98 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				D25EEA7E1F0A7D6500A45C98 /* RACReachability.swift */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		D25EEA7F1F0A7D6500A45C98 /* Realm */ = {
+			isa = PBXGroup;
+			children = (
+				D25EEA801F0A7D6500A45C98 /* RealmExtensions.swift */,
+			);
+			path = Realm;
+			sourceTree = "<group>";
+		};
+		D25EEA811F0A7D6500A45C98 /* SDWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				D25EEA821F0A7D6500A45C98 /* SDWebImage+RAC.swift */,
+			);
+			path = SDWebImage;
+			sourceTree = "<group>";
+		};
+		D25EEA831F0A7D6500A45C98 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				D25EEA841F0A7D6500A45C98 /* Deprecations.swift */,
+				D25EEA851F0A7D6500A45C98 /* UIKitExtensions.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		D25EEA861F0A7D6500A45C98 /* WebKit */ = {
+			isa = PBXGroup;
+			children = (
+				D25EEA871F0A7D6500A45C98 /* WebKitExtensions.swift */,
+			);
+			path = WebKit;
+			sourceTree = "<group>";
+		};
+		D25EEA931F0A814C00A45C98 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D25EEAA51F0A85CF00A45C98 /* ReactiveCocoa.framework */,
+				D25EEA941F0A814C00A45C98 /* Argo.framework */,
+				D25EEA951F0A814C00A45C98 /* Marshal.framework */,
+				D25EEA961F0A814C00A45C98 /* ReactiveSwift.framework */,
+				D25EEA971F0A814C00A45C98 /* Realm.framework */,
+				D25EEA981F0A814C00A45C98 /* RealmSwift.framework */,
+				D25EEA991F0A814C00A45C98 /* Result.framework */,
+				D25EEA9A1F0A814C00A45C98 /* Runes.framework */,
+				D25EEA9B1F0A814C00A45C98 /* SDWebImage.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D296CE4B1F0A7D18006EEEE3 = {
+			isa = PBXGroup;
+			children = (
+				D296CE571F0A7D18006EEEE3 /* ACKReactiveExtensions */,
+				D296CE561F0A7D18006EEEE3 /* Products */,
+				D25EEA931F0A814C00A45C98 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D296CE561F0A7D18006EEEE3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D296CE551F0A7D18006EEEE3 /* ACKReactiveExtensions.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D296CE571F0A7D18006EEEE3 /* ACKReactiveExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				D25EEA751F0A7D6500A45C98 /* Argo */,
+				D25EEA781F0A7D6500A45C98 /* Core */,
+				D25EEA7B1F0A7D6500A45C98 /* Marshal */,
+				D25EEA7D1F0A7D6500A45C98 /* Reachability */,
+				D25EEA7F1F0A7D6500A45C98 /* Realm */,
+				D25EEA811F0A7D6500A45C98 /* SDWebImage */,
+				D25EEA831F0A7D6500A45C98 /* UIKit */,
+				D25EEA861F0A7D6500A45C98 /* WebKit */,
+				D296CE591F0A7D18006EEEE3 /* Info.plist */,
+			);
+			path = ACKReactiveExtensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D296CE521F0A7D18006EEEE3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D296CE541F0A7D18006EEEE3 /* ACKReactiveExtensions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D296CE5D1F0A7D18006EEEE3 /* Build configuration list for PBXNativeTarget "ACKReactiveExtensions" */;
+			buildPhases = (
+				D296CE501F0A7D18006EEEE3 /* Sources */,
+				D296CE511F0A7D18006EEEE3 /* Frameworks */,
+				D296CE521F0A7D18006EEEE3 /* Headers */,
+				D296CE531F0A7D18006EEEE3 /* Resources */,
+				D25EEAA41F0A818900A45C98 /* Carthage Copy Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ACKReactiveExtensions;
+			productName = ACKReactiveExtensions;
+			productReference = D296CE551F0A7D18006EEEE3 /* ACKReactiveExtensions.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D296CE4C1F0A7D18006EEEE3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Ackee;
+				TargetAttributes = {
+					D296CE541F0A7D18006EEEE3 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D296CE4F1F0A7D18006EEEE3 /* Build configuration list for PBXProject "ACKReactiveExtensions" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D296CE4B1F0A7D18006EEEE3;
+			productRefGroup = D296CE561F0A7D18006EEEE3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D296CE541F0A7D18006EEEE3 /* ACKReactiveExtensions */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D296CE531F0A7D18006EEEE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D25EEAA41F0A818900A45C98 /* Carthage Copy Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Argo.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Marshal.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/ReactiveSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Realm.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RealmSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Result.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Runes.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SDWebImage.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Result.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/ReactiveCocoa.framework",
+			);
+			name = "Carthage Copy Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D296CE501F0A7D18006EEEE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D25EEA901F0A7D6500A45C98 /* Deprecations.swift in Sources */,
+				D25EEA8F1F0A7D6500A45C98 /* SDWebImage+RAC.swift in Sources */,
+				D25EEA8C1F0A7D6500A45C98 /* MarshalMapping.swift in Sources */,
+				D25EEA881F0A7D6500A45C98 /* ArgoDeprecations.swift in Sources */,
+				D25EEA911F0A7D6500A45C98 /* UIKitExtensions.swift in Sources */,
+				D25EEA8A1F0A7D6500A45C98 /* ACKReactiveExtensionsConfiguration.swift in Sources */,
+				D25EEA8E1F0A7D6500A45C98 /* RealmExtensions.swift in Sources */,
+				D25EEA8B1F0A7D6500A45C98 /* Core.swift in Sources */,
+				D25EEA921F0A7D6500A45C98 /* WebKitExtensions.swift in Sources */,
+				D25EEA891F0A7D6500A45C98 /* ArgoMapping.swift in Sources */,
+				D25EEA8D1F0A7D6500A45C98 /* RACReachability.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D296CE5B1F0A7D18006EEEE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D296CE5C1F0A7D18006EEEE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D296CE5E1F0A7D18006EEEE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = ACKReactiveExtensions/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cz.ackee.ACKReactiveExtensions;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D296CE5F1F0A7D18006EEEE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = ACKReactiveExtensions/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cz.ackee.ACKReactiveExtensions;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D296CE4F1F0A7D18006EEEE3 /* Build configuration list for PBXProject "ACKReactiveExtensions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D296CE5B1F0A7D18006EEEE3 /* Debug */,
+				D296CE5C1F0A7D18006EEEE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D296CE5D1F0A7D18006EEEE3 /* Build configuration list for PBXNativeTarget "ACKReactiveExtensions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D296CE5E1F0A7D18006EEEE3 /* Debug */,
+				D296CE5F1F0A7D18006EEEE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D296CE4C1F0A7D18006EEEE3 /* Project object */;
+}

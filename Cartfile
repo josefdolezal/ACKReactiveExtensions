@@ -1,0 +1,7 @@
+github "ReactiveCocoa/ReactiveSwift"
+github "ReactiveCocoa/ReactiveCocoa"
+github "thoughtbot/Argo"
+github "utahiosmac/Marshal"
+github "tonymillion/Reachability"
+github "realm/realm-cocoa"
+github "rs/SDWebImage"

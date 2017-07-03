@@ -9,6 +9,7 @@
 import Foundation
 import ReactiveSwift
 import RealmSwift
+import UIKit
 
 /// Error return in case of Realm operation failure
 public struct RealmError : Error {
